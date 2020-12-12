@@ -2,29 +2,23 @@
 	export let emoji;
 </script>
 
-<main>
-	<h1>Veverka Frontend is housed here {emoji}!</h1>
-	<p>Check out our <a href="https://github.com/microsoftstc/veverka-frontend">repo</a> or else</p>
+<main class="dark:bg-gray-800">
+	<h1 class="font-bold dark:text-white">Veverka Frontend is housed here {emoji}!</h1>
+	<p class="dark:text-white">Check out our <a href="https://github.com/microsoftstc/veverka-frontend">repo</a> or else</p>
 </main>
 
-<style>
+<style global lang="postcss">
+	@tailwind base;
+	@tailwind components;
+	@tailwind utilities;
+
+	body {
+		width: 100vw;
+		padding: 0 !important;
+		@apply dark:bg-gray-800;
+	}
+
 	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
-</style>
+    	padding: 50px;
+  	}
+</style>  
