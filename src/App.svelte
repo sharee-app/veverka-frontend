@@ -2,7 +2,7 @@
 </script>
 
 <main>
-	<div class="h-screen w-screen">
+	<div class="h-screen w-screen dark:bg-gray-800 dark:text-white">
 		<div class="h-16 w-full flex">
 		   <div class="w-1/4 h-full">Sharee logo</div>
 		   <div class="w-2/4 h-4/5 mx-8 mt-1.5">
@@ -15,7 +15,7 @@
 		<div class="w-full flex">
 		   <div class="w-1/3 h-full border">
 			  <h2 class="text-3xl font-bold">🔥 Hot of the day</h2>
-			  <div class="bg-white border shadow-sm px-4 py-3 w-full">
+			  <div class="border shadow-sm px-4 py-3 w-full">
 				 <div class="flex items-center">
 					<img class="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" />
 					<div class="ml-2">
@@ -29,7 +29,7 @@
 					   </div>
 					</div>
 				 </div>
-				 <p class="text-gray-800 text-sm mt-2 leading-normal md:leading-relaxed">
+				 <p class="text-gray-800 dark:text-white text-sm mt-2 leading-normal md:leading-relaxed">
 					Gibbet lugsail aft chase guns list schooner barque galleon gun ho. Swab tender measured fer yer chains lateen sail poop deck mizzenmast tackle Yellow Jack prow barque. Wench chandler heave to line hogshead lookout Arr measured fer yer chains league belay.
 					Parley hogshead hang the jib yawl smartly league Barbary Coast schooner salmagundi nipperkin. Black jack flogging Nelsons folly cog fire ship to go on account hearties bowsprit careen squiffy. Jolly Roger lanyard chantey long clothes Shiver me timbers tackle mizzen chase mizzenmast parrel. 
 				 </p>
@@ -49,7 +49,7 @@
 					</span>
 				 </div>
 			  </div>
-			  <div class="bg-white border shadow-sm px-4 py-3 w-full">
+			  <div class="border shadow-sm px-4 py-3 w-full">
 				 <div class="flex items-center">
 					<img class="h-12 w-12 rounded-full" src="https://thispersondoesnotexist.com/image" />
 					<div class="ml-2">
@@ -63,7 +63,7 @@
 					   </div>
 					</div>
 				 </div>
-				 <p class="text-gray-800 text-sm mt-2 leading-normal md:leading-relaxed">
+				 <p class="text-gray-800 dark:text-white text-sm mt-2 leading-normal md:leading-relaxed">
 					Muž přijde domů a vidí svou světlovlasou manželku, jak dává na zeď mokrý hadr. „Co to proboha děláš?" ptá se. „Pan doktor mi řekl, že mám dávat studené obklady na místo, kde jsem se odřela!"
 				 </p>
 			  <div class="text-gray-500 text-xs flex items-center mt-3 ml-3 justify-end">
@@ -81,7 +81,7 @@
 					</span>
 				 </div>
 			  </div>
-			  <div class="bg-white border shadow-sm px-4 py-3 w-full">
+			  <div class="border shadow-sm px-4 py-3 w-full">
 				 <div class="flex items-center">
 					<img class="h-12 w-12 rounded-full" src="https://thispersondoesnotexist.com/image" />
 					<div class="ml-2">
@@ -95,7 +95,7 @@
 					   </div>
 					</div>
 				 </div>
-				 <p class="text-gray-800 text-sm mt-2 leading-normal md:leading-relaxed">
+				 <p class="text-gray-800 dark:text-white text-sm mt-2 leading-normal md:leading-relaxed">
 					Víte, proč blondýna zmrzla v letním kině ?
 					<br>
 					Chtěla vidět "Přes zimu ZAVŘENO."
@@ -130,6 +130,7 @@
 	body {
 		width: 100vw;
 		padding: 0 !important;
+		@apply dark:bg-gray-800;
 	}
 
 	main {
