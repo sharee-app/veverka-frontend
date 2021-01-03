@@ -12,7 +12,7 @@
 		   </div>
 		   <div class="w-1/4 h-full">Messenger Profile Points</div>
 		</div>
-		<div class="w-full flex">
+		<div class="flex">
 		   <div class="w-1/3 h-full border">
 			  <h2 class="text-3xl font-bold">🔥 Hot of the day</h2>
 			  <div class="border shadow-sm px-4 py-3 w-full">
@@ -131,9 +131,7 @@
 		width: 100vw;
 		padding: 0 !important;
 		@apply dark:bg-gray-800;
+		max-width: 99vw !important;
 	}
 
-	main {
-    	padding: 50px;
-  	}
 </style>  
