@@ -13,11 +13,11 @@
 		   <div class="w-1/4 h-full">Messenger Profile Points</div>
 		</div>
 		<div class="flex">
-		   <div class="w-1/3 h-full border">
+		   <div class="w-1/3 h-full">
 			  <h2 class="text-3xl font-bold">🔥 Hot of the day</h2>
-			  <div class="border shadow-sm px-4 py-3 w-full">
+			  <div class="shadow-sm px-4 py-3 w-full">
 				 <div class="flex items-center">
-					<img class="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" />
+					<img class="h-12 w-12 rounded-full" src="https://thiscatdoesnotexist.com/" />
 					<div class="ml-2">
 					   <div class="text-sm">
 						  <span class="font-semibold">Pepa z Depa</span>
@@ -49,7 +49,7 @@
 					</span>
 				 </div>
 			  </div>
-			  <div class="border shadow-sm px-4 py-3 w-full">
+			  <div class="shadow-sm px-4 py-3 w-full">
 				 <div class="flex items-center">
 					<img class="h-12 w-12 rounded-full" src="https://thispersondoesnotexist.com/image" />
 					<div class="ml-2">
@@ -81,7 +81,7 @@
 					</span>
 				 </div>
 			  </div>
-			  <div class="border shadow-sm px-4 py-3 w-full">
+			  <div class="shadow-sm px-4 py-3 w-full">
 				 <div class="flex items-center">
 					<img class="h-12 w-12 rounded-full" src="https://thispersondoesnotexist.com/image" />
 					<div class="ml-2">
