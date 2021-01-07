@@ -2,7 +2,7 @@
 </script>
 
 <main>
-	<div class="h-screen w-screen dark:bg-gray-800 dark:text-white">
+	<div class="h-screen w-screen dark:bg-gray-800 dark:text-white pr-12 pl-12">
 		<div class="h-16 w-full flex">
 		   <div class="w-1/4 h-full">Sharee logo</div>
 		   <div class="w-2/4 h-4/5 mx-8 mt-1.5">
