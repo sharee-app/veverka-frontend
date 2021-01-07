@@ -10,7 +10,13 @@
 				 <input class="h-full w-full mr-4 text-xl" type="text" placeholder="Search..." />
 			  </div>
 		   </div>
-		   <div class="w-1/4 h-full">Messenger Profile Points</div>
+		   <div class="w-1/4 h-full flex">
+			<ul class="flex text-xl">
+				<li class="m-3">Messenger</li>
+				<li class="m-3">Profile</li>
+				<li class="m-3">Points</li>
+			</ul>
+			</div>
 		</div>
 		<div class="flex">
 		   <div class="w-1/3 h-full">
