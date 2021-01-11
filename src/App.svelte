@@ -1,10 +1,27 @@
 <script>
+
+let themeMode = window.matchMedia("(prefers-color-scheme: dark)").matches === true ? "dark" : "light";
+
+function activateTheme(theme) {
+	themeMode = theme;
+}
+
+window.matchMedia("(prefers-color-scheme: dark)").addListener(
+  e => e.matches && activateTheme("dark")
+);
+
+window.matchMedia("(prefers-color-scheme: light)").addListener(
+  e => e.matches && activateTheme("light")
+);
+
 </script>
 
 <main>
 	<div class="h-screen w-screen dark:bg-gray-800 dark:text-white pr-12 pl-12">
-		<div class="h-16 w-full flex">
-		   <div class="w-1/4 h-full">Sharee logo</div>
+		<div class="h-16 w-full flex mb-4 pt-4">
+		   <div class="w-1/4 h-full">
+				<img src={themeMode === "dark" ? "img/logo.svg" : "img/light.svg"}>
+			</div>
 		   <div class="w-2/4 h-4/5 mx-8 mt-1.5">
 			  <div class="flex h-full rounded-full border-grey-light border">
 				 <input class="h-full w-full mr-4 text-xl" type="text" placeholder="Search..." />
