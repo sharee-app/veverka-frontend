@@ -20,7 +20,7 @@ window.matchMedia("(prefers-color-scheme: light)").addListener(
 	<div class="h-screen w-screen dark:bg-gray-800 dark:text-white pr-12 pl-12">
 		<div class="h-16 w-full flex mb-4 pt-4">
 		   <div class="w-1/4 h-full">
-				<img src={themeMode === "dark" ? "img/logo.svg" : "img/light.svg"}>
+				<img src={themeMode === "dark" ? "img/logo.svg" : "img/light.svg"} class="max-h-full">
 			</div>
 		   <div class="w-2/4 h-4/5 mx-8 mt-1.5">
 			  <div class="flex h-full rounded-full border-grey-light border">
