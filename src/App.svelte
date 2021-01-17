@@ -23,9 +23,10 @@ window.matchMedia("(prefers-color-scheme: light)").addListener(
 				<img src={themeMode === "dark" ? "img/logo.svg" : "img/light.svg"}>
 			</div>
 		   <div class="w-2/4 h-4/5 mx-8 mt-1.5">
-			  <div class="flex h-full rounded-full border-grey-light border">
-				 <input class="h-full w-full mr-4 text-xl" type="text" placeholder="Search..." />
-			  </div>
+			<div class="relative">
+				<div class="absolute top-4 left-2"><svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></div>
+				<input type="text" class="bg-sharee h-14 w-96 pr-8 pl-10 rounded-xl z-0 focus:shadow focus:outline-none placeholder-white text-2xl" placeholder="Search"/>
+			  </div>		  
 		   </div>
 		   <div class="w-1/4 h-full flex">
 			<ul class="flex text-xl">
