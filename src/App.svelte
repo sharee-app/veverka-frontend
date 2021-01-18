@@ -19,7 +19,7 @@ window.matchMedia("(prefers-color-scheme: light)").addListener(
 <main>
 	<div class="h-screen w-screen dark:bg-gray-800 dark:text-white pr-12 pl-12">
 	  <div class="h-16 w-full flex mb-12 pt-5 justify-between">
-		<div class="w-60 h-full mt-4 justify-start"><img src="https://litter.catbox.moe/kf152m.svg" class="max-h-full"></div>
+		<div class="w-60 h-full mt-4 justify-start"><img src={themeMode === "dark" ? 'img/logo.svg' : 'img/light.svg' } class="max-h-full"></div>
 		<div class="w-2/4 h-4/5 mt-1.5">
 		  <div class="relative">
 			<div class="absolute top-4 left-2">
