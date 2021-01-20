@@ -39,7 +39,7 @@ window.matchMedia("(prefers-color-scheme: light)").addListener(
 	  <div class="flex">
 		<div class="w-1/3 h-full">
 		  <h2 class="text-3xl font-bold flex">
-			<svg class="w-7 h-7 head-icon text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+			<svg class="w-9 h-9 head-icon text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"></path>
 			</svg>
 			Hot of the day
@@ -139,13 +139,13 @@ window.matchMedia("(prefers-color-scheme: light)").addListener(
 		  </div>
 		</div>
 		<div class="w-1/3 h-full text-3xl font-bold flex">
-		  <svg class="w-7 h-7 head-icon text-black" fill="none" stroke="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+		  <svg class="w-9 h-9 head-icon text-black dark:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"></path>
 		  </svg>
 		  Frontpage
 		</div>
 		<div class="w-1/3 h-full text-3xl font-bold flex">
-		  <svg class="w-7 h-7 head-icon text-green-600" fill="none" stroke="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+		  <svg class="w-9 h-9 head-icon text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
 		  </svg>
 		  Latest activity
