@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 
 import Card from './components/Post.svelte'
 import Menu from './components/Menu.svelte'
