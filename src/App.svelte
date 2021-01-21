@@ -59,7 +59,7 @@ document.onkeyup = function(e) {
 
 		  <Card 
 			name="Adam von Prag" 
-		  	text='Víte, proč blondýna zmrzla v letním kině? <br /> Chtěla vidět "Přes zimu ZAVŘENO."'
+		  	text='Víte, proč blondýna zmrzla v letním kině? Chtěla vidět "Přes zimu ZAVŘENO."'
 		  	edited={false}
 		  	community="blondýnky"
 		  	relativeTime="2d"
