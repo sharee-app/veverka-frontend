@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     export let name: string;
     export let text: string;
     export let community: string;
@@ -16,7 +16,7 @@
           <span class="text-gray-500">to s/{community}</span>
         </div>
         <div class="text-gray-500 text-xs flex">
-          <span class="inline-block">{relativeTime} • {edited && "Edited"} </span>
+          <span class="inline-block">{relativeTime} {edited ? "• Edited" : ""} </span>
         </div>
       </div>
     </div>

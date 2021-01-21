@@ -42,23 +42,25 @@ document.onkeyup = function(e) {
 		  <Card 
 		  	name="Pepa von Depo" 
 			text="Gibbet lugsail aft chase guns list schooner barque galleon gun ho. Swab tender measured fer yer chains lateen sail poop deck mizzenmast tackle Yellow Jack prow barque. Wench chandler heave to line hogshead lookout Arr measured fer yer chains league belay. Parley hogshead hang the jib yawl smartly league Barbary Coast schooner salmagundi nipperkin. Black jack flogging Nelsons folly cog fire ship to go on account hearties bowsprit careen squiffy. Jolly Roger lanyard chantey long clothes Shiver me timbers tackle mizzen chase mizzenmast parrel."
-			edited=true
+			edited={true}
 			community="Vše"
 			relativeTime="3h"
 			avatar="https://thiscatdoesnotexist.com/"
 		  />
+
 		  <Card 
 		  	name="Adam von Prag" 
 			text='Muž přijde domů a vidí svou světlovlasou manželku, jak dává na zeď mokrý hadr. „Co to proboha děláš?" ptá se. „Pan doktor mi řekl, že mám dávat studené obklady na místo, kde jsem se odřela!"'
-			edited=false
+			edited={false}
 			community="blondýnky"
 			relativeTime="5h"
 			avatar="https://thispersondoesnotexist.com/image"
 	  	  />
+
 		  <Card 
 			name="Adam von Prag" 
 		  	text='Víte, proč blondýna zmrzla v letním kině? <br /> Chtěla vidět "Přes zimu ZAVŘENO."'
-		  	edited=false
+		  	edited={false}
 		  	community="blondýnky"
 		  	relativeTime="2d"
 		  	avatar="https://thispersondoesnotexist.com/image"
