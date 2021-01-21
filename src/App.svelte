@@ -46,6 +46,7 @@ document.onkeyup = function(e) {
 			community="Vše"
 			relativeTime="3h"
 			avatar="https://thiscatdoesnotexist.com/"
+			score={42}
 		  />
 
 		  <Card 
@@ -55,6 +56,7 @@ document.onkeyup = function(e) {
 			community="blondýnky"
 			relativeTime="5h"
 			avatar="https://thispersondoesnotexist.com/image"
+			score={69}
 	  	  />
 
 		  <Card 
@@ -64,6 +66,7 @@ document.onkeyup = function(e) {
 		  	community="blondýnky"
 		  	relativeTime="2d"
 		  	avatar="https://thispersondoesnotexist.com/image"
+			score={420}
 		  />
 		</div>
 		<div class="w-1/3 h-full text-3xl font-bold flex">
