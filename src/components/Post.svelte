@@ -1,10 +1,10 @@
 <script>
-    export let name;
-    export let text;
-    export let community;
-    export let relativeTime;
-    export let edited;
-    export let avatar;
+    export let name: string;
+    export let text: string;
+    export let community: string;
+    export let relativeTime: string;
+    export let edited: boolean;
+    export let avatar: string;
 </script>
 
 <div class="shadow-sm px-4 py-3 w-full">

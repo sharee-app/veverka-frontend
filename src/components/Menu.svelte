@@ -1,5 +1,5 @@
 <script>
-    export let theme;
+    export let theme: string;
 </script>
 
 <div class="h-16 w-full flex mb-12 pt-5 justify-between">

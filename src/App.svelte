@@ -3,7 +3,7 @@
 import Card from './components/Post.svelte'
 import Menu from './components/Menu.svelte'
 
-let themeMode = window.matchMedia("(prefers-color-scheme: dark)").matches === true ? "dark" : "light";
+let themeMode: string = window.matchMedia("(prefers-color-scheme: dark)").matches === true ? "dark" : "light";
 
 function activateTheme(theme) {
 	themeMode = theme;
