@@ -20,7 +20,6 @@ window.matchMedia("(prefers-color-scheme: light)").addListener(
 document.onkeyup = function(e) {
   const ev = e || window.event; // for IE to cover IEs window object
   if (ev.ctrlKey && ev.key == "/") {
-    alert('Keyboard shortcut working!');
 	const searchBox = document.querySelector("#searchbox")
 	searchBox.focus();
     return false;
