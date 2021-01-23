@@ -33,7 +33,7 @@
                 <span class="text-sm text-gray-700 pt-1">Remember Me</span>
             </label>
             <div class="w-1/2 text-right">
-                <a href="#" class="text-sharee text-sm tracking-tight">Forget your password?</a>
+                <a href="#" class="text-sharee text-sm tracking-tight">Forgot your password?</a>
             </div>
         </div>
         <div class="w-full md:w-full px-3 mb-6">
