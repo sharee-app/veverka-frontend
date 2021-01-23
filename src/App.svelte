@@ -1,7 +1,7 @@
 <script lang="ts">
 
-	import Card from './components/Post.svelte'
-	import Menu from './components/Menu.svelte'
+	import Card from './components/Post.svelte';
+	import Menu from './components/Menu.svelte';
 
 	let themeMode: string = window.matchMedia("(prefers-color-scheme: dark)").matches === true ? "dark" : "light";
 
