@@ -5,7 +5,7 @@
 
 	let themeMode: string = window.matchMedia("(prefers-color-scheme: dark)").matches === true ? "dark" : "light";
 
-	function activateTheme(theme) {
+	function activateTheme(theme: string) {
 		themeMode = theme;
 	}
 
