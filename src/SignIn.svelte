@@ -28,7 +28,7 @@
             <input class="appearance-none block w-full bg-white text-gray-900 font-medium border border-gray-400 rounded-lg py-3 px-3 leading-tight focus:outline-none" type='password' required>
         </div>
         <div class="w-full flex items-center justify-between px-3 mb-3 ">
-            <label for="remember" class="flex items-center w-1/2">
+            <label class="flex items-center w-1/2">
                 <input type="checkbox" name="" id="" class="mr-1 bg-white shadow">
                 <span class="text-sm text-gray-700 pt-1">Remember Me</span>
             </label>
