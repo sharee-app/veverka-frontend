@@ -3,7 +3,7 @@
 </script>
 
 <div class="h-16 w-full flex mb-12 pt-5 justify-between">
-    <div class="w-60 h-full mt-4 justify-start"><img src={theme === "dark" ? 'img/logo.svg' : 'img/light.svg' } class="max-h-full" alt="Sharee logo"></div>
+    <div class="w-60 h-full mt-4 justify-start"><a href="/"><img src={theme === "dark" ? 'img/logo.svg' : 'img/light.svg' } class="max-h-full" alt="Sharee logo"></a></div>
     <div class="w-2/4 h-4/5 mt-1.5">
       <div class="relative">
         <div class="absolute top-4 left-2">
