@@ -87,11 +87,22 @@
 				score={42}
 			/>
 		</div>
-		<div class="w-1/5 h-full text-3xl font-bold flex">
-		  <svg class="w-9 h-9 mr-2 head-icon text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-		  </svg>
-		  Latest activity
+		<div class="w-1/5 h-full">
+			<h2 class="text-3xl font-bold flex">
+				<svg class="w-9 h-9 mr-2 head-icon text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+				</svg>
+			Latest activity
+			</h2>
+		  <Card 
+			name="Pepa von Depo" 
+			text="Jednou Chucka podrobili testům kvůli steroidům. Ukázalo se, že testy jsou pozitivní. Byl z toho veliký poprask a všichni se ptali, jak je to možné. Chuck se k tomu vyjádřil následovně: 'A z čeho si myslíte, že steroidy jsou?'"
+			edited={true}
+			community="UltraVtipnéVtipy"
+			relativeTime="3h"
+			avatar="https://thiscatdoesnotexist.com/"
+			score={42}
+	  	  />
 		</div>
 	  </div>
 	</div>
