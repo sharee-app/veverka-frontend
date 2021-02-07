@@ -15,7 +15,6 @@
     <div class="w-1/4 h-full flex justify-end">
       <ul class="flex text-xl">
         <li class="mt-4 mr-6">Messenger</li>
-        <li class="mt-4 mr-6">Profile</li>
         <li class="mt-4 mr-6">Points</li>
         <li class="mt-4 mr-6"><img class="h-10 w-10 rounded-full" src="https://thispersondoesnotexist.com/image?s=y" alt="avatar" /></li>
       </ul>
