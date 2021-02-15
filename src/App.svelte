@@ -69,7 +69,7 @@
 			score={420}
 		  />
 		</div>
-		<div class="w-3/5 h-full">
+		<div class="lg:w-3/5 w-full h-full">
 			<h2 class="text-3xl font-bold flex">
 				<svg class="w-9 h-9 mr-2 head-icon text-black dark:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"></path>
