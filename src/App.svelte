@@ -86,6 +86,16 @@
 				avatar="https://thiscatdoesnotexist.com/"
 				score={42}
 			/>
+
+			<Card 
+				name="Fufrán" 
+				text="Otázka: jakou chuť má cibule?"
+				edited={true}
+				community="KZamyšlení"
+				relativeTime="2y"
+				avatar="https://thiscatdoesnotexist.com/?u=haha"
+				score={2}
+			/>
 		</div>
 		<div class="w-1/5 h-full hidden lg:block">
 			<h2 class="text-3xl font-bold flex">
