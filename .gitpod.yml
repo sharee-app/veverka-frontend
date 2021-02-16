@@ -1,5 +1,5 @@
 tasks:
-  - init: npm
+  - init: npm i
     command: npm run dev
 # Ports to expose on workspace startup (optional)
 ports:
