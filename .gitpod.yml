@@ -1,3 +1,11 @@
+tasks:
+  - init: npm
+    command: npm run dev
+# Ports to expose on workspace startup (optional)
+ports:
+  - port: 8000
+    onOpen: open-preview
+
 vscode:
   extensions:
     - svelte.svelte-vscode@104.3.0:SWdKeCa+mGv0RIGF1YETqg==
