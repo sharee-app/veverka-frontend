@@ -29,7 +29,7 @@
 </script>
 
 <main>
-	<div class="h-screen w-screen dark:bg-gray-800 dark:text-white pr-12 pl-12">
+	<div class="h-screen w-screen dark:bg-gray-800 dark:text-white lg:px-12 px-3">
 	  <Menu theme={themeMode} />
 	  <div class="flex">
 		<div class="w-1/5 h-full hidden lg:block">
