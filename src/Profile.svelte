@@ -48,7 +48,7 @@
     <div class="flex">
       <div class="w-3/5 h-full">
         <img
-          src="https://demos.creative-tim.com/tailwindcss-starter-project/_next/static/images/team-1-800x800-fa5a7ac2c81a43925586ea85f2fea332.jpg"
+          src="https://avatars.githubusercontent.com/u/57829748?v=4"
           alt="..."
           class="rounded-full h-20 float-left w-20 mr-3 flex items-center
           justify-center" />
@@ -156,15 +156,12 @@
               24 12.073z" />
           </svg>
         </div>
-        <br />
-        <div id="messBtn">
           <button
             class="bg-transparent hover:bg-purple-500 text-purple-700
             font-semibold hover:text-white py-2 px-4 border border-purple-500
             hover:border-transparent rounded">
             Message Adam
           </button>
-        </div>
         <br />
         <div id="stats">
           <ul>

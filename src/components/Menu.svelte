@@ -4,14 +4,18 @@
 
 <div class="h-16 w-full flex mb-12 pt-5 justify-between">
     <!-- Logo -->
-    <div class="w-60 h-full mt-4 justify-start">
+    <div class="w-60 h-full mt-2 justify-start">
       <a href="/">
-        <img src={theme === "dark" ? 'img/logo.svg' : 'img/light.svg' } class="max-h-full hidden md:block" alt="Sharee logo">
-        <img src="img/icon.svg" class="max-h-full block md:hidden" alt="Sharee logo">
+        <div class="flex items-center px-2 lg:px-0 xl:w-64">
+          <div class="flex-shrink-0">
+            <img class="h-8 w-auto mt-1" src={theme === "dark" ? 'img/logo.svg' : 'img/light.svg' } alt="Sharee logo">
+            <img src="img/icon.svg" class="max-h-full block md:hidden" alt="Sharee logo">
+          </div>
+        </div> 
       </a>
     </div>
     <!-- Searchbox -->
-    <div class="w-2/4 h-4/5 mt-1.5 hidden md:block">
+    <div class="w-2/4 h-4/5 mt-2 hidden md:block">
       <div class="relative text-indigo-300">
         <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
           <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -22,11 +26,20 @@
       </div>
     </div>
     <!-- Navbar -->
-    <div class="w-1/8 flex items-center justify-end lg:block hidden">
-      <a href="#" class="px-3 py-2 rounded-md text-sm leading-5 font-medium text-black hover:text-sharee focus:outline-none focus:text-white focus:bg-sharee transition duration-150 ease-in-out">Messenger</a>
-      <a href="#" class="px-3 py-2 rounded-md text-sm leading-5 font-medium text-black hover:text-sharee focus:outline-none focus:text-white focus:bg-sharee transition duration-150 ease-in-out">Points</a>
-      <button class="ml-4 mt-5 relative flex-shrink-0 text-sm text-white focus:outline-none focus:shadow-solid transition duration-150 ease-in-out">
-        <img class="h-10 w-10 rounded-full" src="https://thispersondoesnotexist.com/image?s=y" alt="avatar" />
-      </button>
+    <div class="hidden lg:block lg:w-80">
+      <div class="flex items-center justify-end">
+        <div class="flex mt-2">
+          <a href="#" class="px-3 py-2 rounded-md text-sm font-medium text-black hover:text-sharee">Messenger</a>
+          <a href="#" class="px-3 py-2 rounded-md text-sm font-medium text-black hover:text-sharee">Points</a>
+        </div>
+        <div class="ml-4 mt-3 relative flex-shrink-0">
+          <div>
+            <button class="flex text-sm rounded-full text-white focus:outline-none " x-bind:aria-expanded="open">
+              <span class="sr-only"></span>
+              <img class="h-8 w-8 rounded-full" src="https://thispersondoesnotexist.com/image?s=y" alt="">
+            </button>
+          </div>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
