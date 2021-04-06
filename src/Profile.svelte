@@ -55,7 +55,7 @@
         <h3 class="text-2xl pt-3">Filip Troníček</h3>
         <h4 class="text-lg">Active Since Jan 2021</h4>
         <br />
-        <div id="socials">
+        <div id="socials" class="w-auto h-8 mb-4">
           <svg
             class="w-8 mr-3 float-left text-black dark:text-white"
             fill="currentColor"
@@ -159,7 +159,7 @@
           <button
             class="bg-transparent hover:bg-purple-500 text-purple-700
             font-semibold hover:text-white py-2 px-4 border border-purple-500
-            hover:border-transparent rounded">
+            hover:border-transparent rounded mb-4">
             Message Adam
           </button>
         <br />
