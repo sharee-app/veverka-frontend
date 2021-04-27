@@ -1,5 +1,6 @@
 import Homepage from './Home.svelte';
 import Profile from './Profile.svelte';
+import SignIn from './SignIn.svelte';
 
 const routes = [
   {
@@ -9,6 +10,10 @@ const routes = [
   {
     name: 'profile',
     component: Profile,
+  },
+  {
+    name: 'login',
+    component: SignIn,
   },
 ];
 
