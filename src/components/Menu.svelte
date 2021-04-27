@@ -15,7 +15,7 @@
       </a>
     </div>
     <!-- Searchbox -->
-    <div class="w-2/4 h-4/5 mt-2 hidden md:block">
+    <div class="w-2/4 h-4/5 mt-1.8 hidden md:block">
       <div class="relative text-indigo-300">
         <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
           <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -43,3 +43,6 @@
         </div>
       </div>
     </div>
+    
+
+
