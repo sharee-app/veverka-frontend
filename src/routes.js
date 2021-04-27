@@ -20,6 +20,10 @@ const routes = [
     name: 'login',
     component: SignIn,
   },
+  {
+    name: "/:username",
+    component: Profile
+  }
 ];
 
 export { routes };

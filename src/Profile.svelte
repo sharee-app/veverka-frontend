@@ -1,5 +1,6 @@
 <script lang="ts">
   import Menu from './components/Menu.svelte';
+  export let currentRoute
 
   let themeMode: string =
     window.matchMedia('(prefers-color-scheme: dark)').matches === true
@@ -51,7 +52,7 @@
           alt="..."
           class="rounded-full h-20 float-left w-20 mr-3 flex items-center
           justify-center" />
-        <h3 class="text-2xl pt-3">Filip Troníček</h3>
+        <h3 class="text-2xl pt-3">{ !currentRoute.namedParams.username ? "Filip Troníček" : `@${currentRoute.namedParams.username}` }</h3>
         <h4 class="text-lg">Active Since Jan 2021</h4>
         <br />
         <div id="socials" class="w-auto h-8 mb-4">
