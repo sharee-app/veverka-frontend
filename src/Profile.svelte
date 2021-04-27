@@ -1,30 +1,29 @@
 <script lang="ts">
-  import Card from './components/Post.svelte'
-  import Menu from './components/Menu.svelte'
+  import Menu from './components/Menu.svelte';
 
   let themeMode: string =
     window.matchMedia('(prefers-color-scheme: dark)').matches === true
       ? 'dark'
-      : 'light'
+      : 'light';
 
   function activateTheme(theme: string) {
-    themeMode = theme
+    themeMode = theme;
   }
 
   window
     .matchMedia('(prefers-color-scheme: dark)')
-    .addListener((e) => e.matches && activateTheme('dark'))
+    .addListener((e) => e.matches && activateTheme('dark'));
 
   window
     .matchMedia('(prefers-color-scheme: light)')
-    .addListener((e) => e.matches && activateTheme('light'))
+    .addListener((e) => e.matches && activateTheme('light'));
 
   document.onkeyup = function (e) {
     const ev = e || window.event // for IE to cover IEs window object
     if (ev.ctrlKey && ev.key == '/') {
-      const searchBox = document.querySelector('#searchbox')
-      searchBox.focus()
-      return false
+      const searchBox = document.querySelector('#searchbox');
+      searchBox.focus();
+      return false;
     }
   }
 </script>
